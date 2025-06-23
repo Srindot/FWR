@@ -217,17 +217,18 @@ def sim(va=5.0, aoa=5.0, fp=1):
 
     # Animate output
 
-    # ps.output.animate(
-    #     unsteady_solver=example_solver,
-    #     scalar_type="lift",
-    #     show_wake_vortices=True,
-    #     save=True,
-    # )
+    ps.output.animate(
+        unsteady_solver=example_solver,
+        scalar_type="lift",
+        show_wake_vortices=True,
+        save=True,
+    )
 
     # Extract forces from the solver 
 
     lift, induced_drag, side_force, pitching_moment = extract_forces(example_solver)
-    plot_forces(lift, induced_drag, side_force, pitching_moment)
+    plot_forces(lift, induced_drag, side_force)
+
 
     return lift, induced_drag, side_force, pitching_moment
 
