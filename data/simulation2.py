@@ -193,8 +193,8 @@ def sim(va=5.0, aoa=5.0, fp=1):
     movement = ps.movement.Movement(
         airplane_movements=[airplane_movement],
         operating_point_movement=operating_point_movement,
-        num_steps=None,
-        delta_time=None,
+        num_steps=200,
+        delta_time=0.001,
     )
 
     del airplane_movement
@@ -232,4 +232,4 @@ def sim(va=5.0, aoa=5.0, fp=1):
     return lift, induced_drag, side_force, pitching_moment
 
 
-sim(5.0, 5.0, 1.0)
+sim(5.0, 5.0, 0.2)
