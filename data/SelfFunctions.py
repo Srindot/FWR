@@ -47,16 +47,14 @@ def extract_forces(solver):
     return lift, induced_drag, side_force, pitching_moment
 
 
-import numpy as np
-import matplotlib.pyplot as plt
 
 def plot_forces(lift, drag, side_force, 
-                lift_style='-', drag_style='-', side_force_style='-', 
-                lift_color='blue', drag_color='red', side_force_color='green'):
-    # Ensure 1D arrays
-    lift = np.asarray(lift).flatten()
-    drag = np.asarray(drag).flatten()
-    side_force = np.asarray(side_force).flatten()
+                         lift_style='-', drag_style='-', side_force_style='-', 
+                         lift_color='blue', drag_color='red', side_force_color='green'):
+    
+    lift = lift.flatten()
+    drag = drag.flatten()
+    side_force = side_force.flatten()
     
     # Check if all input arrays have the same length
     if not (len(lift) == len(drag) == len(side_force)):
@@ -64,13 +62,6 @@ def plot_forces(lift, drag, side_force,
 
     # Create an array for the x-axis (assuming it's the same length as the input arrays)
     x_values = np.arange(len(lift))
-
-    # Validate linestyles (must be string, not array)
-    valid_linestyles = ['-', '--', '-.', ':', 'solid', 'dashed', 'dashdot', 'dotted', 'None', '', ' ']
-    for style, name in zip([lift_style, drag_style, side_force_style], 
-                           ['lift_style', 'drag_style', 'side_force_style']):
-        if not (isinstance(style, str) or style in valid_linestyles):
-            raise ValueError(f"{name} must be a valid matplotlib linestyle string.")
 
     # Create subplots
     fig, axs = plt.subplots(3, 1, figsize=(10, 12))
@@ -98,7 +89,6 @@ def plot_forces(lift, drag, side_force,
 
     plt.tight_layout()
     plt.show()
-
 
 
 
