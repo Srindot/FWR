@@ -193,7 +193,7 @@ def sim(va=5.0, aoa=5.0, fp=1):
     movement = ps.movement.Movement(
         airplane_movements=[airplane_movement],
         operating_point_movement=operating_point_movement,
-        num_steps=200,
+        num_steps=400,
         delta_time=0.001,
     )
 
