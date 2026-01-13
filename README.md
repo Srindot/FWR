@@ -7,64 +7,66 @@ This repository contains the cad files for the flapping wing robot from IIIT Hyd
 
 -   **Front Bracket**: [Link](cad/final_front_bracket/)
     
-	![Front Bracket](images/Pasted%20image%2020250830154749.png)
+	![Front Bracket](images/final_front_bracket.png)
 
 
 -   **GBM**: [Link](cad/final_gbm/)
    
-    ![GBM](images/Pasted%20image%2020250830154633.png)
+    ![GBM](images/final_GBM.png)
 
 
 -   **GPS Mount**: [Link](cad/final_gps_mount/)
     
-	![GPS Mount](images/Pasted%20image%2020250830154538.png)
+	![GPS Mount](images/final_gps_mount.png)
 
 
 -   **Motor Guard**: [Link](cad/final_motor_guard/)
     
-	![Motor Guard](images/Pasted%20image%2020250830154444.png)
+	![Motor Guard](images/final_motor_guard.png)
 
 
 -   **T-Joint**: [Link](cad/final_t_joint/)
     
-	![T-Joint](images/Pasted%20image%2020250830154334.png)
+	![T-Joint](images/final_T_joint.png)
 
 
 -   **T1**: [Link](cad/final_t1/)
     
-	![T1](images/Pasted%20image%2020250830154109.png)
+	![T1](images/Motor_Guard.png)
 
 
 -   **T2**: [Link](cad/final_t2/)
     
-	![T2](images/Pasted%20image%2020250830154016.png)
+	![T2](images/gearbox.png)
 
 
 -   **Tail Holder**: [Link](cad/final_tail_holder/)
     
-	![Tail Holder](images/Pasted%20image%2020250830153929.png)
+	![Tail Holder](images/final_tail_holder.png)
 
 
 -   **Tail Triangle**: [Link](cad/final_tail_triangle/)
     
-	![Tail Triangle](images/Pasted%20image%2020250830153819.png)
+	![Tail Triangle](images/finaltailtriangle.png)
 
 
 -   **Wing**: [Link](cad/final_wing/)
     
-	![Wing](images/Pasted%20image%2020250830153712.png)
+	![Wing](images/frontmotor.png)
 
 
 -   **Ball Tail**: [Link](cad/final_ball_tail/)
    
-    ![Ball Tail](images/Pasted%20image%2020250830153018.png)
+    ![Ball Tail](images/final_ball_tail.png)
 
 
 -   **Component Holder Offset**: [Link](cad/component_holder_offset/)
     
-	![Component Holder Offset](images/image.png)
+	![Component Holder Offset](images/component_holder_offset.png)
 
 
 -   **Electronic Component Holder**: [Link](cad/electronic_component_holder/)
+    
+	![Electronic Component Holder](images/electronic_component_holder.png)
 
 ---
