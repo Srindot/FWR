@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# CAD/editor temp files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Python cache (if scripts are added)
+__pycache__/
+*.pyc
